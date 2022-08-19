@@ -1,0 +1,140 @@
+
+# user input -----> 
+
+# syntax ----> inp("msg")
+#                 operation
+
+x = input("Enter something!!")
+print(x)
+Enter something!!dqwiydgf^Y$*^&57858@....
+dqwiydgf^Y$*^&57858@....
+# Wap to add two numbers using user input.
+
+a = int(input("Enter the first num"))
+b = int(input("Enter the second num"))
+c = a+b
+print(c)
+Enter the first num5
+Enter the second num1
+6
+a = "5"
+b = "1"
+c = a+b
+print(c)
+51
+a = float(input("Enter the first num"))
+b = int(input("Enter the second num"))
+c = a+b
+print(c)
+Enter the first num5.6
+Enter the second num8
+13.6
+a = float(input("Enter the first num"))
+b = int(input("Enter the second num"))
+c = a+b
+print(c)
+Enter the first num4
+Enter the second num5
+9.0
+a = 8
+b = float(a)
+print(b)
+8.0
+a = int(input("Enter the first num"))
+b = input("Enter the second num")
+c = a+b
+print(c)
+Enter the first num8
+Enter the second num6
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+~\AppData\Local\Temp/ipykernel_1116/3182688863.py in <module>
+      1 a = int(input("Enter the first num"))
+      2 b = input("Enter the second num")
+----> 3 c = a+b
+      4 print(c)
+
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+#wap to find the avg of a student in 3 subjects?
+a = int(input("Enter the marks1"))
+b = int(input("Enter the marks2 "))
+c = int(input("Enter the marks3"))
+
+avg = (a+b+c)/3
+print(avg)
+Enter the marks11
+Enter the marks2 2
+Enter the marks33
+2.0
+Condition!!
+# Syntax---->
+
+# if condition:
+#     print the msg
+# else:
+#     print the msg
+
+age = 18
+
+if age>=18:
+    print("vote krne chlo bhai!!")
+else:
+    print("no vote")
+vote krne chlo bhai!!
+age = 18
+
+if age>18:
+    print("vote krne chlo bhai!!")
+elif age == 18:
+    print("First time voter")
+else:
+    print("no vote")
+First time voter
+#wap to find the odd and even number .
+
+# #wap to find a individual is a child or adult.
+
+# #wap to find the if it is rainy outside or not 
+# condition is if temp is 20 degree then it is rainy.
+
+# Wap to print holiday if the day is sunday otherwise 
+# print boring day .
+a = 67
+if a%2 == 0:
+    print("Even")
+else:
+    print("Odd")
+Odd
+a = 67
+if a%2 != 0:
+    print("Odd")
+else:
+    print("Even")
+Odd
+# #wap to find a individual is a child or adult.
+
+a = int(input("enter the age"))
+if a > 18:
+    print("Adult")
+else:
+    print("choti bacchi ho kya!!")
+enter the age45
+Adult
+# #wap to find the if it is rainy outside or not 
+# condition is if temp is 20 degree then it is rainy.
+
+temp = 20
+if temp == 20:
+    print("Barso re megha bhai!!")
+    
+Barso re megha bhai!!
+# Wap to print holiday if the day is sunday otherwise 
+# print boring day .
+
+
+day = input("Enter the day")
+if day == "sunday":
+    print("holiday")
+else:
+    print("Boring day!!")
+ 
